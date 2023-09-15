@@ -36,11 +36,9 @@ Monitoring: Successful implementation of monitoring tools.
 
 ## The project will be considered complete when:
 
-All microservices are deployed and functional
-Monitoring tools are effectively tracking performance metrics
-All code and documentation are uploaded to GitHub
-Project Portfolio Link
-GitHub Repository
+- All microservices are deployed and functional
+- Monitoring tools are effectively tracking performance metrics
+- All code and documentation are uploaded to GitHub
 
 ## This repository will contain:
 
