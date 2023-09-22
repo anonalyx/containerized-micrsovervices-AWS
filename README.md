@@ -1,64 +1,32 @@
-# containerized-micrsovervices-AWS
-Professional Development project exploring docker, kubernetes, and aws
+# Project Proposal - CryptoZombies Extension
+## Vision Statement
+This project aims to build a comprehensive front-end interface for a blockchain-based zombie game, extending from the CryptoZombies tutorial. It will involve working with Web3.js, smart contracts, and the React or Svelte front-end framework. The end goal is to create a functional and intuitive UI that interacts seamlessly with Ethereum smart contracts. This project will enhance my skills in blockchain development, front-end frameworks, and software architecture, preparing me for a diversified role in the tech industry.
 
-Project Proposal for Containerized Microservices Deployment on AWS Using Docker and Kubernetes
+## Motivation
+Prior to UC Boulder, I worked in the digital asset industry, and I am eager to dive deeper into the web3 technologies I had only a surface level understanding of before. I'd also like to better understand the relevant development and deployment tools like the Truffle framework as well as my desire to apply front-end development skills in a real-world application. 
 
-# Vision Statement
+## Specific and Measurable Goals
+- Implement core game functionalities such as attack, changeName, changeDna, and ERC721 functions in the front-end within 3 weeks.
+- Develop an admin page with restricted functionalities based on the Ethereum address within 1 week.
+- Create user views including individual zombie pages, user pages, and the homepage within 4 weeks.
+- Integrate real-time notifications and events within 2 weeks.
+- Optimize front-end performance by implementing caching strategies within 1 week.
+- Document the code and write a final project report by the end of the semester.
 
-My goal is to design, build, and deploy a proof-of-concept system that utilizes a microservices architecture on AWS using Docker containers and orchestrated using Kubernetes. This will expand my professional skills in cloud computing, container orchestration, and DevOps practices, positioning me as a proficient full-stack developer with a specialization in cloud-based solutions. Data scale cloud computing is interesting to me and I've already noticed some of the complexity in working with cloud-hosted data.
-
-# Motivation
-Systems design is the area of computer science I am most interested in, and while I don't have much direct experience with cloud computing and containerization technologies I am interested to push myself and learn more about them. This project will be a great first step towards bridging the gap between theoretical knowledge and practical implementation. It will also serve as a portfolio project demonstrating my capabilities in these areas.
-
-# Specific and Measurable Goals (Learning Objectives)
-
-Design a Microservices Architecture: Draft a blueprint for a User Service that manages authentication, profile, and other administrative activities related to user identity
-
-Containerize Services using Docker: Each service will be encapsulated into a Docker container.
-
-Orchestrate using Kubernetes: Deploy each service on a Kubernetes cluster.
-
-AWS Integration: Utilize AWS services like S3 for cloud data.
-
-# Risks to Project Completion
-
-New Working Environment: Lack of hands-on experience with Kubernetes and AWS services.
-
-Learning Curve: Complexity of microservices orchestration.
-
-Resource Constraints: Cost associated with AWS services.
-
-
-# Mitigation Strategy
-Tutorials and Documentation: Allocate time to study AWS and Kubernetes documentation.
-
-Scope Limitation: Stick to a small, manageable number of microservices.
-
-Free Tiers and Grants: Utilize AWS Educate credits and free tiers to minimize costs.
-
-# Project Assessments
-
-Functionality: All microservices should function as designed.
-
-Scalability: The architecture should handle increased load gracefully.
-
-Cost-Effectiveness: Stay within the budget for AWS services.
-
-Monitoring: Successful implementation of monitoring tools.
-
-# Project Completion Criteria
-
-## The project will be considered complete when:
-
-- All microservices are deployed and functional
-- Monitoring tools are effectively tracking performance metrics
-- All code and documentation are uploaded to GitHub
-
-## This repository will contain:
-
-Copy of this proposal
-Codebase
-Data collected
-Weekly project updates
-Final project report
-Community Interaction
+### Risks to Project Completion: 
+- No prior experience working with a front-end framework like React or Svelte
+- Limited understanding of blockchain events and real-time notifications.
+- Unfamiliarity with front-end caching strategies.
+  
+### Mitigation Strategy
+- For the first risk, I plan to dedicate the initial weeks to learn the basics of the Svelte framework.
+- To address the second risk, I will go through documentation and tutorials on Ethereum events.
+- For the last risk, I'll research effective caching strategies and perhaps find libraries that can aid in this aspect.
+  
+## Project Assessments
+The project will be considered complete when all the goals are met, the code is documented, and the final project report is written, summarizing the learnings, achievements, and any future scope.
+- Functionality: Does the interface implement all listed features?
+- Usability: Is the interface user-friendly?
+- Code Quality: Is the code well-structured, documented, and maintainable?
+- Performance: Does the application run smoothly, with optimized calls to the blockchain?
+- Documentation: Is the project well-documented including a final report?
